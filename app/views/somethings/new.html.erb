@@ -1,0 +1,13 @@
+<h1>Create New Something</h1>
+
+<%= form_for @something do |fb| %>
+    <%= fb.label :name %>
+    <%= fb.text_field :name %>
+    <br />
+
+    <%= fb.label :age %>
+    <%= fb.number_field :age %>
+    <br />
+
+    <%= fb.submit %>
+<% end %>
